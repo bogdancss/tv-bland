@@ -1,0 +1,36 @@
+.dashboard {
+  text-align: left;
+  color: #c8c5c5;
+
+  &__description-wrapper {
+    max-width: 500px;
+  }
+
+  &__description {
+    margin: 0;
+    line-height: 24px;
+  }
+
+  &__intro-section {
+    padding: 20px 0 200px;
+    background: #2e2926;
+
+    @media (max-width: 768px) {
+      padding-bottom: 150px;
+    }
+  }
+
+  &__show-list-container {
+    padding: 0;
+    margin-top: -130px;
+
+    @media (max-width: 768px) {
+      margin-top: -100px;
+    }
+  }
+
+  &__list-title {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+}
